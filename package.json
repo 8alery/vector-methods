@@ -6,7 +6,11 @@
   "scripts": {
     "test": "NODE_ENV=test mocha --reporter spec test"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/8alery/vector-methods"
+  },
+  "author": "8alery@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2",
