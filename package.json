@@ -1,0 +1,16 @@
+{
+  "name": "vector-methods",
+  "version": "1.0.0",
+  "description": "Methods for working with float vectors",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --reporter spec test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "lodash": "^4.17.10",
+    "mocha": "^5.2.0"
+  }
+}
