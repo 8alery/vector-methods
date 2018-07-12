@@ -4,14 +4,15 @@
   "description": "Methods for working with float vectors",
   "main": "index.js",
   "scripts": {
+    "prepublish": "yarn run test",
     "test": "NODE_ENV=test mocha --reporter spec test"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/8alery/vector-methods"
   },
-  "author": "8alery@gmail.com",
-  "license": "ISC",
+  "author": "ibabasik@yandex.ru",
+  "license": "Apache-2.0",
   "devDependencies": {
     "chai": "^4.1.2",
     "lodash": "^4.17.10",
